@@ -16,11 +16,9 @@ public class Main {
 
         //Challenge 1
         System.out.println("Day 1 Part 1 answer: " + resltNum().toString());
-        // \Challenge 1
 
         //Challenge 2
         freqFreq();
-        // \Challenge 2
 
     }
 
@@ -77,8 +75,8 @@ public class Main {
     //Finds the first freq. that comes up twice.
     /* Note: This was originally meant to return the answer and have an ArrayList
     passed as an argument. The ArrayList would have derived from the loadData()
-    method. The idea was to promote code reusability but for some reason iterating
-    through that ArrayList messes something up. I dont want to spend 2340443523
+    method. The idea was to promote code re-usability but for some reason iterating
+    through that ArrayList messes something up. I don't want to spend 2340443523
     hours figuring out why so now this method returns nothing.
     ~~TODO~~ Figure out why this is the case some point in the future.
     */
